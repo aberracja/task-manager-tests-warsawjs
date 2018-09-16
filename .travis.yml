@@ -1,3 +1,7 @@
 language: node_js
 node_js:
-  - "10"
+- '10'
+deploy:
+  provider: heroku
+  api_key: secure: IqCLNZ/otCuXPnH6kyY4kdwo6k4Qh6GC6TH+HTqg6pZFm+IM47d+lKtdQIV4mbuQV74zd7WieoySnafi7IWmu6lXtE6OolU6OennsB+Tr71m1XWCcvHbvZa0zW+/ZU5bedb4eh6+DrwWNFiGycbavTbvMsVGdlC5dY7DaUfYgJLXju9HvdVdTd7ZQfyl/Z0+UymrCZ/cE2WqsQwOY5LEDuYyK7gdhSqJUGBAi3AcmBLs6bO72TimMeHuzj9DEtBbVkr+rlsQm06CYqp54u7CdVOJ+yerCyWYb0dFKI5DHge2LK58BPry1laWxxJ36zWo0WGRpfrjvThDWhfP4cWPLSOAjq1G+F9mrS5sDziO4G0sQNPABbNO8QFrv3Dga2lDaQSH9tgxNR963ZnwJEfgFDf4mOQYjJyIMvzgOxlgVsSBnH8EmMmzf7xgBhARu+J3DE53oGa0vb/3p+PIcCnBQeHtYzOhd2yO7pbwzfuvaNhm0pJfLAk1Nr2h+A6NfE8KpEx9lPmyIUNOgfIxuJPnc5Vw29IhGW0ujr9e6aRoHgAxFfKpR1ZMBXVK0+3MkgvW7Pej4590aat0wIyVq2EY2KtkQQWYDxpMMG1YAlS5QYLxcaYIo28ohAWfwh/Nfs4PsKiLA+xekVO418bAl/jk98HO+03ofNXy+IJ6GpFGsGY=
+  app: task-manager-warsawjs
